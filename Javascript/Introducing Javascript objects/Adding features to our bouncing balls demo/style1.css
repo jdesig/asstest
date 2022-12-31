@@ -1,0 +1,45 @@
+.button {
+    background-color: transparent; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+    right: 190px;
+    top: 350px;
+  }
+.button:hover , .prev:hover{
+
+    background-color:#8585851a;
+    border-radius: 10px ;
+    transform: translateY(-20px );
+    
+    
+}
+
+
+
+
+
+  .prev {
+    background-color:transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+    right: 1200px;
+    top: 350px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }

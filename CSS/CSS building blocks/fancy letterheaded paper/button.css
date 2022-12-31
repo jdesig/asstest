@@ -1,0 +1,46 @@
+.button {
+    background-color: #858585a8; 
+    color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+    right: 180px;
+    top: 350px;
+  }
+.button:hover , .prev:hover{
+
+    background-color:#858585a8;
+    border-radius: 10px ;
+    transform: translateY(-6px );
+    
+    
+}
+
+
+
+
+
+  .prev {
+    background-color:#858585a8;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+    right: 1230px;
+    top: 350px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
